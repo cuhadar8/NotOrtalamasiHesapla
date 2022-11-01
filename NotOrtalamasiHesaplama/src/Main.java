@@ -31,12 +31,8 @@ public class Main {
 		
 		System.out.println("Ortalamanız: " + sonuc);
 		
-		if(sonuc >= 60) {
-			System.out.println("Tebrikler sınıfı geçtiniz. :)");
-		}
-		else {
-			System.out.println("Kaldınız. Daha çok çalışmanız gerekmekte.");
-		}
+		boolean gectiMi = sonuc >= 60;
+		System.out.println(gectiMi ? "Sınıfı geçti." : "Sınıfta kaldı.");
 		 
 		
 		
