@@ -8,7 +8,7 @@ public class Main {
 		
 		Scanner scanner = new Scanner(System.in);
 		
-		System.out.print("Matameik notunuz: ");
+		System.out.print("Matematik notunuz: ");
 		mat = scanner.nextInt();
 		
 		System.out.print("Fizik notunuz: ");
